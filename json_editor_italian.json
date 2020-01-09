@@ -1,0 +1,358 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "english grammar - it",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RepeatMessageIntent",
+                    "slots": [
+                        {
+                            "name": "Repeat",
+                            "type": "Repeat_List"
+                        }
+                    ],
+                    "samples": [
+                        "{Repeat}"
+                    ]
+                },
+                {
+                    "name": "ShowOptionsIntent",
+                    "slots": [
+                        {
+                            "name": "Options",
+                            "type": "Show_Option_List"
+                        }
+                    ],
+                    "samples": [
+                        "Show me {Options}",
+                        "{Options}",
+                        "Show me {Options}  - it"
+                    ]
+                },
+                {
+                    "name": "StartQuizIntent",
+                    "slots": [
+                        {
+                            "name": "Chapters",
+                            "type": "Chapter_list"
+                        }
+                    ],
+                    "samples": [
+                        "{Chapters} quiz",
+                        "{Chapters} quiz  - it",
+                        "Start {Chapters} quiz",
+                        "Start {Chapters} quiz  - it",
+                        "Start quiz",
+                        "Start quiz  - it",
+                        "Quiz",
+                        "Quiz  - it"
+                    ]
+                },
+                {
+                    "name": "GrammaticalRuleIntent",
+                    "slots": [
+                        {
+                            "name": "GrammaticalRule",
+                            "type": "Chapter_list"
+                        }
+                    ],
+                    "samples": [
+                        "Go to {GrammaticalRule}",
+                        "Go to {GrammaticalRule}  - it",
+                        "{GrammaticalRule}",
+                        "{GrammaticalRule}  - it",
+                        "I want {GrammaticalRule}",
+                        "I want {GrammaticalRule}  - it"
+                    ]
+                },
+                {
+                    "name": "MoreInfoExamplesIntent",
+                    "slots": [
+                        {
+                            "name": "MoreOptions",
+                            "type": "MoreOptionsList"
+                        }
+                    ],
+                    "samples": [
+                        "{MoreOptions}"
+                    ]
+                },
+                {
+                    "name": "AnswerQuizIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{Answer}",
+                        "The number {Answer}",
+                        "The number {Answer}  - it",
+                        "Number {Answer}",
+                        "Number {Answer}  - it"
+                    ]
+                },
+                {
+                    "name": "DontKnowQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "skip",
+                        "skip  - it",
+                        "Don't know",
+                        "Don't know  - it"
+                    ]
+                },
+                {
+                    "name": "EndQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "end quiz",
+                        "end quiz  - it",
+                        "quit quiz",
+                        "quit quiz  - it",
+                        "skip quiz",
+                        "skip quiz  - it"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "Show_Option_List",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "help"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "help - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grammatical rule"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grammatical rule - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "index"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grammatical rule - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "table of contents"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "table of contents - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quiz"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quiz - it"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeat_List",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "repeat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repeat - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "again"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "again - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repeat again"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repeat again - it"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "MoreOptionsList",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "more info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "more info - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "examples"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "examples - it"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Chapter_list",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "subject pronouns"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "subject pronouns - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be afirmative"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be afirmative - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be negative"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be negative - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be interocative"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be interocative - it"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cardinal numbers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cardinal numbers - it"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
