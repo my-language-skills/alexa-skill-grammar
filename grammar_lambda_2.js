@@ -20,14 +20,14 @@ const languageString = {
         TOBE_INTEROCATIVE: grammar_a1.EN_US.TOBE_INTEROCATIVE,
         TOBE_INTEROCATIVE_QUIZ: quizes.EN_US.TOBE_INTEROCATIVE,
         CARDINAL_NUMBERS: grammar_a1.EN_US.CARDINAL_NUMBERS,
-        CARDINAL_NUMBERS_QUIZ: quizes.EN_US.CARDINAL_NUMBERS, 
+        CARDINAL_NUMBERS_QUIZ: quizes.EN_US.CARDINAL_NUMBERS,
         IMAGE_URLS: grammar_a1.EN_US.URLS,
         LANGUAGE: 'English',
         PLEASE_STATE: 'Please state the correct number. ',
         QUIZ_COMPLETED: 'Finished the quiz. Final score: %s',
         QUIZ_CORRECT_ANSWER: 'Congrats. Correct-o. ',
         QUIZ_WRONG_ANSWER: 'Boo hoo. That was wrong. Correct answer is: %s. ',
-        QUIZ_INVALID_ANSWER: 'Well you clearly didn\'t hear the instructions then. ', 
+        QUIZ_INVALID_ANSWER: 'Well you clearly didn\'t hear the instructions then. ',
         QUIZ_DONTKNOW: 'Well you have to learn it. ',
         QUIZ_QUIT: 'Give up like life has given up on you. Final score: %s',
         WELCOME_MESSAGE: 'Welcome to %s. Let\'s learn some english gramatical rules. ',
@@ -80,47 +80,47 @@ const languageString = {
         LANGUAGE_CHAPTERS: langs.CHAPTERS,
         lANGUAGE_REPEAT: langs.REPEAT,
         LANGUAGE: 'Castellano',
+        WELCOME_MESSAGE: 'Bienvenido a %s. Aprendamos algo. ',
+        GENERAL_OPTIONS: 'Puedes decir, ayuda, para obtener la ayuda de la aplicación. O, Índice, para escuchar la lista de normas gramaticales disponibles. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ', //this one
+        HELP_START: 'Por favor, indique la norma gramatical que desearía revisar ',
+        TOTALLY_WRONG_INPUT: 'Eso son simplemente balbuceos. No tiene ningún sentido para mí. ',
+        FALLBACK_MESSSAGE: 'La %s skill no puede ayudarte con eso. ¿Con qué podría yo ayudarte? ',
+        FALLBACK_REPROMPT: '¿Con qué podría yo ayudarte? ',
+        HELP_NEEDED: 'Intenta pidiendo ayuda para ver los comando disponibles. ',
+        OPTION_START_HELP: 'Dí, índice, para obtener la lista de las normas gramaticales disponibles. ',
+        OPTION_START_CHAPTERS: 'Simplemente dí una de las siguientes normas gramaticales para poder acceder: ',
+        OPTION_UNRECOGNISED: 'Este comando no es reconocible por esta aplicación. Por favor, pruebe con algo diferente.',
+        OPTION_CHAPTER_HELP: '¿Quíeres que continuemos? di, más información, o, ejemplos. ',
+        BASIC_INFO: 'Aquí viene: ',
+        EXTRA_INFO_CHAPTER: 'Puedes decir más informacíon para obtener más detales, o ejemplos para obtener una lista de ejemplos de la norma gramatical. ', //this one
+        GRAMATICAL_OPTIONS: ' %s para hacer un ejercicio di, ejercicio. Para seguir estudiando, di el nombre de una norma gramatical.',
+        OPTION_START_QUIZ: 'Simplemente di el título de la norma gramatical seguido de la palabra ejercicios',
+        OPTIONS_QUIZ: 'Dí el número de la respuesta correcta, saltar para saltar el ejercicio y salir para terminar con los ejercicios. ',
         PLEASE_STATE: 'Por favor, indique el número correcto. ',
         QUIZ_COMPLETED: 'Termine el ejercicio. Su puntuación ha sido de: %s puntos ',
         QUIZ_CORRECT_ANSWER: 'Felicitaciones. ',
         QUIZ_WRONG_ANSWER: 'Espera un momento. Eso ha sido incorrecto. La respuesta correcta es: %s. ',
-        QUIZ_INVALID_ANSWER: 'Creo que no escuchaste correctamente las insgtrucciones. ', 
+        QUIZ_INVALID_ANSWER: 'Creo que no escuchaste correctamente las insgtrucciones. ',
         QUIZ_DONTKNOW: 'Parece que tienes que aprenderlo. ',
         QUIZ_QUIT: 'No creo que tengas otra opcion más que rendirte. Puntuación final: %s ',
-        WELCOME_MESSAGE: 'Bienvenido a %s. Aprendarmos algo. ',
         SKILL_NAME: 'Gramática inglesa ',
-        EXTRA_INFO_CHAPTER: 'Puedes decir más informacíon para obtener más detales o ejemplos para obtener una lista de ejemplos de la norma gramatical. ', //this one
-        HELP_START: 'Por favor, indique la normal gramatical que desearía revisar ',
         CHAPTER_INFO: 'Por favor, indique a cual de las siguietnes secciones de la norma gramatical sobre %s quieres acceder. ',
-        OPTION_START_HELP: 'Puedes decir indice para obtener la lista completa de normas gramaticales a las que se puede acceder. ',
-        OPTION_START_CHAPTERS: 'Simplemente dí una de las siguientes normas gramaticales para poder acceder. ',
-        OPTION_UNRECOGNISED: 'Este comando no es reconocible por esta aplicación. Por favor, pruebe con algo diferente.',
-        OPTION_CHAPTER_HELP: 'Puedes decir más informacíon para obtener más detalles o ejemplos para escuhar una lista de ejemplos. ',
-        OPTION_START_QUIZ: 'Simplemente di el título de la norma gramatical seguido de la palabra ejercicios',
-        OPTIONS_QUIZ: 'Dí el número de la respuesta correcta, saltar para saltar el ejercicio y salir para terminar con los ejercicios. ',
-        NO_CHAPTER: 'No se ha seleccionado ninguna normal gramatical.',
-        GRAMATICAL_OPTIONS: '%s Di comenzar cuestionario para hacer un ejercicio. O decir una regla diferente para estudiar.',
+        NO_CHAPTER: 'No se ha seleccionado ninguna norma gramatical.',
         WRONG_INPUT: 'Esta instruccion no es útil aquí. ',
         START_INTENT_OPTIONS: 'Dí el título de la norma gramatical a la que le gustaría acceder. Dí, mostrarme la norma gramatical para obtener la lista de las normas gramaticales. ',
         QUIT_MESSAGE: 'Gracias por utilizar la gramatica inglesa de Books for Languages. Nos vemos pronto. ',
-        NO_ACCESS_TO_THIS: 'Parece que not tienes acceso a esta informaci´pon, por favor, dame más detalles. ',
-        GENERAL_OPTIONS: 'Puedes decir ayuda para objtener la ayuda de la aplicación, indice para escuchar la lista de normas gramaticales disponibles o el título de la norma gramatical y ejercicios para poder practicar lo aprendido. ',//this one
-        FALLBACK_MESSSAGE: 'La %s skill no puede ayudarte con eso. ¿Cón que podría yo ayudarte? ',
-        FALLBACK_REPROMPT: '¿Con que podría ayudarte? ',
-        BASIC_INFO: 'Básica información para: ',
+        NO_ACCESS_TO_THIS: 'Parece que no tienes acceso a esta información, por favor, dame más detalles. ',
         MORE_INFO:  'Más información para: ',
         EXAMPLE_INFO: 'Ejemplos de: ',
         QUIZ_QUESTION: 'Pregunta',
-        TOTALLY_WRONG_INPUT: 'Eso son simplemente balbuceos. No tiene ningun sentido para mi. ',
         SORRY_SAY_AGAIN: 'Lo siento, no puedo entender su instrucción. Podria volver a probar en %s....',
-        NO_PREVIOUS_INFO: 'Como puedo ahcceder al próximo si no existe el anterior?. ',
-        HELP_NEEDED: 'Intenta pidiendo ayuda para ver los comando disponibles. ' //This one
+        NO_PREVIOUS_INFO: 'Como puedo ahcceder al próximo si no existe el anterior?. '
         },
     },
   };
- 
+
   /**
-   * INTENTIONS 
+   * INTENTIONS
    */
 
   const EndQuizIntent = {
@@ -135,7 +135,7 @@ const languageString = {
       const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
 
       let valid_intent_msg = validAccessIntent(handlerInput,'EndQuizIntent');
-      
+
       if (valid_intent_msg == 'ok')
       {
         let output = requestAttributes.t('QUIZ_QUIT',sessionAttributes.quiz_score);
@@ -156,12 +156,12 @@ const languageString = {
         return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak(output+'. '+requestAttributes.t('GRAMATICAL_OPTIONS',requestAttributes.t('OPTION_CHAPTER_HELP')))
-        .getResponse(); 
+        .getResponse();
       }
       return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak(requestAttributes.t('WRONG_INPUT'))
-        .getResponse(); 
+        .getResponse();
     },
   };
 
@@ -175,9 +175,9 @@ const languageString = {
     {
         const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
         const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
-        
+
         let valid_intent_msg = validAccessIntent(handlerInput,'DontKnowQuizIntent');
-        
+
         if (valid_intent_msg == 'ok')
         {
           let output=requestAttributes.t('QUIZ_DONTKNOW')
@@ -191,16 +191,16 @@ const languageString = {
               answerOutput:'',
             });
           handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-             
+
           let translated_chapter = translate(handlerInput,sessionAttributes.chapter,requestAttributes.t('LANGUAGE_CHAPTERS'));
-          
-          
+
+
           return startQuiz(handlerInput,translated_chapter,output);
         }
         return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak(requestAttributes.t('WRONG_INPUT'))
-        .getResponse(); 
+        .getResponse();
 
     },
   };
@@ -215,24 +215,24 @@ const languageString = {
     {
       const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
       const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
-    
+
       let valid_intent_msg = validAccessIntent(handlerInput,'AnswerQuizIntent');
-      
+
       if (valid_intent_msg == 'ok')
       {
         const slots = handlerInput.requestEnvelope.request.intent.slots;
         const answer = slots['Answer'].value;
-        
+
         let output;
         let session_output='';
-        
-      
+
+
         if (answer>=1 && answer <= sessionAttributes.answer_index)
         {
           output = checkIfvalid(handlerInput,answer);
           if (output == requestAttributes.t('QUIZ_CORRECT_ANSWER'))
             session_output='';
-          else 
+          else
             session_output=output;
         }
         else
@@ -245,10 +245,10 @@ const languageString = {
           return handlerInput.responseBuilder
           .withShouldEndSession(false)
           .speak(requestAttributes.t('QUIZ_INVALID_ANSWER')+requestAttributes.t('OPTIONS_QUIZ')+sessionAttributes.speechOutput)
-          .getResponse(); 
+          .getResponse();
         }
         let next_intents = ['ShowOptionsIntent','AnswerQuizIntent','DontKnowQuizIntent','EndQuizIntent',,'StartQuizIntent',];
-       
+
         Object.assign(sessionAttributes,
           {
             nextIntents: next_intents,
@@ -256,14 +256,14 @@ const languageString = {
             quiz: 'true',
           });
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-        
+
         return startQuiz(handlerInput,translate(handlerInput,sessionAttributes.chapter,requestAttributes.t('LANGUAGE_CHAPTERS')),output);
       }
-      
+
       return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak(requestAttributes.t('WRONG_INPUT'))
-        .getResponse(); 
+        .getResponse();
     },
   };
 
@@ -288,20 +288,20 @@ const languageString = {
         if (chapter == undefined)
           chapter = sessionAttributes.chapter;
         if (chapter == requestAttributes.t('NO_CHAPTER'))
-        {  
+        {
           return handlerInput.responseBuilder
           .withShouldEndSession(false)
           .speak(chapter+requestAttributes.t('OPTION_START_QUIZ'))
-          .getResponse(); 
+          .getResponse();
         }
         //create Questions and Answers here....
-        
+
         let translated_chapter = translate(handlerInput,chapter,requestAttributes.t('LANGUAGE_CHAPTERS'));
-        
+
         generateQuestions(handlerInput,sessionAttributes,translated_chapter);
-        
+
          let next_intents = ['ShowOptionsIntent','AnswerQuizIntent','DontKnowQuizIntent','EndQuizIntent','StartQuizIntent',];
-        
+
         Object.assign(sessionAttributes,
           {
             quiz_score: 0,
@@ -319,14 +319,14 @@ const languageString = {
 
         else
           translated_chapter = sessionAttributes.chapter; */
-       
+
        return  startQuiz(handlerInput,translated_chapter,'');
       }
       return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak(valid_intent_msg)
-        .getResponse(); 
-        
+        .getResponse();
+
     },
   };
 
@@ -346,11 +346,11 @@ const languageString = {
 
       let valid_intent_msg = validAccessIntent(handlerInput,'MoreInfoExamplesIntent');
       if (valid_intent_msg=='ok')
-      {        
+      {
         //the user gave a response to the welcome message and this gets its response
         const slots = handlerInput.requestEnvelope.request.intent.slots;
         const extra_choice = slots['MoreOptions'].value;
-        
+
         if (sessionAttributes.language != 'English')
         {
           translated_chapter = translate(handlerInput,sessionAttributes.chapter,requestAttributes.t('LANGUAGE_CHAPTERS'));
@@ -361,11 +361,11 @@ const languageString = {
           translated_option = extra_choice;
           translated_chapter = sessionAttributes.chapter;
         }
-         
-          
+
+
         const chapterJsonName = returnJsonName(handlerInput,translated_chapter);
       //function to decide the appropriate action for the users response. Returns appropriate message back to show.
-        
+
         speakOut = provideInfo(handlerInput,chapterJsonName,translated_option);
         let next_intents = ['ShowOptionsIntent','StartQuizIntent','MoreInfoExamplesIntent','GrammaticalRuleIntent'];
         Object.assign(sessionAttributes,
@@ -380,12 +380,12 @@ const languageString = {
       {
         speakOut=valid_intent_msg;
       }
-      
+
       handlerInput.responseBuilder.TemplateD
       return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak(speakOut)
-        .getResponse(); 
+        .getResponse();
     },
   };
 
@@ -409,7 +409,7 @@ const languageString = {
         .withShouldEndSession(false)
         .speak(requestAttributes.t('NO_PREVIOUS_INFO'))//future use, will change because database will know where user left off..
         .getResponse();
-      else  
+      else
         return handlerInput.responseBuilder
         .withShouldEndSession(false)
         .speak('next value:'+next_value)
@@ -419,7 +419,7 @@ const languageString = {
       {
         if (valid_intent_msg == 'ok')
         {
-          
+
           let options = slots['GrammaticalRule'].value;
           const more_options = slots['MoreOptions'].value;
           if (options == undefined)
@@ -428,19 +428,19 @@ const languageString = {
           translated_option = translate(handlerInput,options,requestAttributes.t('LANGUAGE_CHAPTERS'));
           else
           translated_option = options;
-      
+
           Object.assign(sessionAttributes,
           {
               chapter: options,
           });
           handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
           const chapterJsonName= returnJsonName(handlerInput,translated_option);
-          
+
           if (more_options!=undefined && more_options !='basic info')
               speakOut = provideInfo(handlerInput,chapterJsonName,more_options);
           else
               speakOut = provideInfo(handlerInput,chapterJsonName,'basic info');
-          
+
           let next_intents = ['ShowOptionsIntent','StartQuizIntent','MoreInfoExamplesIntent','GrammaticalRuleIntent'];
           Object.assign(sessionAttributes,
           {
@@ -458,15 +458,15 @@ const languageString = {
       {
           speakOut = requestAttributes.t('NO_ACCESS_TO_THIS');
       }
-      
+
       return handlerInput.responseBuilder
       .withShouldEndSession(false)
       .speak(speakOut+' '+requestAttributes.t('GRAMATICAL_OPTIONS',requestAttributes.t('OPTION_CHAPTER_HELP')))
       .getResponse();
     },
   };
-  
-  
+
+
   const ShowOptionsIntent = {
       canHandle(handlerInput)
       {
@@ -474,51 +474,51 @@ const languageString = {
             && handlerInput.requestEnvelope.request.intent.name === 'ShowOptionsIntent';
       },
       handle(handlerInput)
-      {   
+      {
         const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
         const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
         //the user gave a response to the welcome message and this gets its response
         const slots = handlerInput.requestEnvelope.request.intent.slots;
         let options = slots['Options'].value;
-      
+
         let translated_option;
         if (sessionAttributes.language != 'English')
           translated_option = translate(handlerInput,options,requestAttributes.t('LANGUAGE_OPTIONS'));
-        
-        
+
+
         //speakOUT will change accordingly to current_chapter...
         //function to decide the appropriate action for the users response. Returns appropriate message back to show.
         if (translated_option != undefined)
           options = translated_option;
-        let speakOut=decideOption(handlerInput,options); 
+        let speakOut=decideOption(handlerInput,options);
 
         /* Object.assign(sessionAttributes,
           {
             speechOutput: speakOut,
           });
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes); */
-        
+
         return handlerInput.responseBuilder
           .withShouldEndSession(false)
           .speak(speakOut)
-          .getResponse(); 
+          .getResponse();
       },
   };
-  
+
   const LaunchRequest = {
     canHandle(handlerInput) {
       const {request} = handlerInput.requestEnvelope;
-      return request.type === 'LaunchRequest' 
+      return request.type === 'LaunchRequest'
       || (request.type === 'IntentRequest' && request.intent.name === 'AMAZON.StartOverIntent');
     },
     handle(handlerInput) {
       const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
       const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
       let speakOutput = requestAttributes.t('WELCOME_MESSAGE',requestAttributes.t('SKILL_NAME')) +requestAttributes.t('GENERAL_OPTIONS')+ requestAttributes.t('HELP_START');
-      
-      
+
+
       defineNextIntents(handlerInput,requestAttributes.t('NO_CHAPTER'));
-      
+
       //addImage(handlerInput,'true');
       Object.assign(sessionAttributes,
         {
@@ -528,7 +528,7 @@ const languageString = {
         });
       handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
 
-      return handlerInput.responseBuilder    
+      return handlerInput.responseBuilder
             .withShouldEndSession(false)
             .speak(speakOutput)
             .reprompt(speakOutput)
@@ -536,7 +536,7 @@ const languageString = {
     },
   };
 
-  
+
 
   const LocalizationInterceptor = {
     process(handlerInput) {
@@ -546,7 +546,7 @@ const languageString = {
         resources: languageString,
         returnObjects: true
       });
-  
+
       const attributes = handlerInput.attributesManager.getRequestAttributes();
       attributes.t = function (...args) {
         return localizationClient.t(...args);
@@ -557,12 +557,12 @@ const languageString = {
   const HelpIntent = {
     canHandle(handlerInput) {
         const { request } = handlerInput.requestEnvelope;
-  
+
         return request.type === 'IntentRequest' && request.intent.name === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
         const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
-        let speakOutput = requestAttributes.t('HELP_START'); 
+        let speakOutput = requestAttributes.t('HELP_START');
         handlerInput.attributesManager.setSessionAttributes(speakOutput);
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -574,35 +574,35 @@ const languageString = {
   const FallbackHandler = {
 
     // 2018-May-01: AMAZON.FallackIntent is only currently available in en-US locale.
-  
+
     //              This handler will not be triggered except in that locale, so it can be
-  
+
     //              safely deployed for any locale.
-  
+
     canHandle(handlerInput) {
-  
+
       const request = handlerInput.requestEnvelope.request;
-  
+
       return request.type === 'IntentRequest'
-  
+
         && request.intent.name === 'AMAZON.FallbackIntent';
-  
+
     },
-  
+
     handle(handlerInput) {
       const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
       return handlerInput.responseBuilder
-  
+
         .speak(requestAttributes.t('TOTALLY_WRONG_INPUT')+requestAttributes.t('FALLBACK_MESSSAGE',requestAttributes.t('SKILL_NAME'))+requestAttributes.t('HELP_NEEDED'))
-  
+
         .reprompt(requestAttributes.t('FALLBACK_REPROMPT'))
-  
+
         .getResponse();
-  
+
     },
-  
+
   };
-  
+
   const CancelAndStopIntentHandler = {
       canHandle(handlerInput) {
           return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
@@ -612,35 +612,35 @@ const languageString = {
       handle(handlerInput) {
         const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
         const speechOutput = requestAttributes.t('QUIT_MESSAGE');
-    
+
         return handlerInput.responseBuilder.speak(speechOutput)
           .withShouldEndSession(true)
           .getResponse();
       },
     };
-    
-  
-  
-  
+
+
+
+
     const SessionEndedRequest = {
     canHandle(handlerInput) {
       return handlerInput.requestEnvelope.request.type === 'SessionEndedRequest';
     },
     handle(handlerInput) {
       console.log(`Session ended with reason: ${handlerInput.requestEnvelope.request.reason}`);
-  
+
       return handlerInput.responseBuilder.getResponse();
     },
   };
-  
- 
+
+
   const RepeatMessageIntent = {
     canHandle(handlerInput)
     {
         return handlerInput.requestEnvelope.request.type === 'IntentRequest'
           && handlerInput.requestEnvelope.request.intent.name === 'RepeatMessageIntent';
     },
-    handle(handlerInput) {  
+    handle(handlerInput) {
       const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
       const output=sessionAttributes.speechOutput;
       let answerOutput='';
@@ -652,23 +652,23 @@ const languageString = {
         .getResponse();
     },
   };
-  
+
   const ErrorHandler = {
     canHandle() {
       return true;
     },
     handle(handlerInput, error) {
       console.log(`Error handled: ${error.message}`);
-      
+
       const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
       const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
-    
+
       return handlerInput.responseBuilder
         .speak(requestAttributes.t('SORRY_SAY_AGAIN',requestAttributes.t('LANGUAGE')))//+'error: '+error+'located: '+sessionAttributes.function+' chapter:'+sessionAttributes.chapter+' option:'+sessionAttributes.msg_debug)
         .getResponse();
     },
   };
-    
+
   const skillBuilder = Alexa.SkillBuilders.custom();
     exports.handler = skillBuilder
       .addRequestHandlers(
@@ -685,7 +685,7 @@ const languageString = {
         DontKnowQuizIntent,
         EndQuizIntent,
         MoreInfoExamplesIntent,
-      ) 
+      )
       .addRequestInterceptors(LocalizationInterceptor)
       .addErrorHandlers(ErrorHandler)
       .lambda();
@@ -698,11 +698,11 @@ const languageString = {
   {
     if (next_value==undefined)
       return undefined;
-    else  
+    else
       return next_value;
   }
 /**
-   * 
+   *
    * @param {*} handlerInput  Input from user
    * @param {*} phrase The word inputed that needs to be translated into english.
    * @param {*} langArray The section of the file we need to search for the translation.
@@ -744,12 +744,12 @@ const languageString = {
       if (target_lang == selected_lang && selected_lang!='English')
       {
         if (langArray[i].English == phrase)
-        {  
+        {
           if (target_lang == 'Castellano')
             {return langArray[i].Spanish;}
         }
       }
-      else 
+      else
       {
         if (selected_lang == 'Castellano')
           if (langArray[i].Spanish == phrase)
@@ -763,9 +763,9 @@ const languageString = {
     return phrase;
   }
 /**
- * 
- * @param {*} handlerInput 
- * @param {*} option 
+ *
+ * @param {*} handlerInput
+ * @param {*} option
  */
 function returnJsonName(handlerInput,chapterName)
 {
@@ -797,7 +797,7 @@ function returnJsonName(handlerInput,chapterName)
    * Function that adds tokens for every picture used in the skill.
    * Tokens are used to load the pictures in a later stage.
    */
-  
+
 
 /**
  * FUNCTION decideStartOption
@@ -805,7 +805,7 @@ function returnJsonName(handlerInput,chapterName)
  * decides which actino to do next according to the inital response of the user
  */
 function decideOption(handlerInput,option)
-{   
+{
     const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
     const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
     Object.assign(sessionAttributes,
@@ -865,7 +865,7 @@ function all_Chapters(handlerInput)
     {
       function: 'end of all_chapters',
     });
-    handlerInput.attributesManager.setSessionAttributes(sessionAttributes);  
+    handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
     return return_msg;
 }
 
@@ -886,7 +886,7 @@ function chapterLength(chapterArray)
 
 
 /**
- * 
+ *
  * To show the basic information of a chapter.
  * MUST be common for every chapter
  * Generalization function.
@@ -902,7 +902,7 @@ function provideInfo(handlerInput,chapterNameJson,option)
     {
       function: 'before while of provideInfo',
     });
-    handlerInput.attributesManager.setSessionAttributes(sessionAttributes); 
+    handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
   if (option =='example')
     option = 'examples'
   while (chapterArray[curr_position].title != option && curr_position < length)
@@ -910,17 +910,17 @@ function provideInfo(handlerInput,chapterNameJson,option)
   if (option == 'basic info')
   {
     //addImage(handlerInput,'true');
-    return requestAttributes.t('BASIC_INFO')+sessionAttributes.chapter+'. '+chapterArray[curr_position].sub_text; 
+    return requestAttributes.t('BASIC_INFO')+sessionAttributes.chapter+'. '+chapterArray[curr_position].sub_text;
   }
   else if (option == 'more info')
   {
-      
+
   Object.assign(sessionAttributes,
     {
       function: 'before while of provideInfo',
       msg: 'before add Image in provide',
     });
-    handlerInput.attributesManager.setSessionAttributes(sessionAttributes); 
+    handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
     //addImage(handlerInput,'false');
     return requestAttributes.t('MORE_INFO')+sessionAttributes.chapter+'. '+chapterArray[curr_position].sub_text;
   }
@@ -933,27 +933,27 @@ function provideInfo(handlerInput,chapterNameJson,option)
 
 /**
  * Generates the questions in a random order and populates them with the shuffeled answers.
- * @param {*} handelrInput 
- * @param {*} sessionAttributes 
- * @param {*} translate 
+ * @param {*} handelrInput
+ * @param {*} sessionAttributes
+ * @param {*} translate
  */
 function generateQuestions(handlerInput,sessionAttributes,chapterName)
 {
-   
+
   const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
-  
+
   Object.assign(sessionAttributes,
     {
       function: 'start of generateQuestions',
     });
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-  const chapterJsonName = returnJsonName(handlerInput,chapterName); 
+  const chapterJsonName = returnJsonName(handlerInput,chapterName);
   let chapterArray = requestAttributes.t(chapterJsonName+'_QUIZ');
   let currentIndex = chapterLength(chapterArray);
   let chaptercopy = chapterArray;
   //object variables
   let questions_ids=[];
-  
+
   while (currentIndex !== 0)
   {
     let randomIndex = Math.floor(Math.random()*currentIndex);
@@ -962,11 +962,11 @@ function generateQuestions(handlerInput,sessionAttributes,chapterName)
     let tempVal = chaptercopy[currentIndex];
     chaptercopy[currentIndex] = chaptercopy[randomIndex];
     chaptercopy[randomIndex] = tempVal;
-    
-    
+
+
     questions_ids.push(chaptercopy[currentIndex].id);
-  } 
-  
+  }
+
   Object.assign(sessionAttributes,{
     question_ids:questions_ids,
   });
@@ -994,7 +994,7 @@ function generateAnswers(handlerInput,question_id,chapterName)
     let answerCurrentIndex = answers_copy.length;
   let final_answers=[];
   const correct=answers_copy[0];
-   
+
     while (answerCurrentIndex !== 0)
     {
       let randomAnswerIndex = Math.floor(Math.random()*answerCurrentIndex);
@@ -1005,7 +1005,7 @@ function generateAnswers(handlerInput,question_id,chapterName)
       answers_copy[randomAnswerIndex] = tempAnsVal;
       final_answers.push(answers_copy[answerCurrentIndex]);
     }
-    
+
     Object.assign(sessionAttributes,
       {
         shuffled_answers: final_answers,
@@ -1018,11 +1018,11 @@ function generateAnswers(handlerInput,question_id,chapterName)
 
 function startQuiz(handlerInput,chapter,carrying_output)
 {
-  
+
   const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
   const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
   //let chapterJson = findChapter(handlerInput,chapter);
-  
+
   Object.assign(sessionAttributes,
     {
       function: 'start of startQuiz',
@@ -1030,17 +1030,17 @@ function startQuiz(handlerInput,chapter,carrying_output)
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
   const chapterJsonName = returnJsonName(handlerInput,chapter);
   let chapterArray = requestAttributes.t(chapterJsonName+'_QUIZ');
-  
+
   /**
    *
    * Getting a random question and shuffles the answers.
   */
   if (!(sessionAttributes.question_index == chapterLength(chapterArray)))
     generateAnswers(handlerInput,sessionAttributes.question_ids[sessionAttributes.question_index],chapter);
-   
+
   let output= createQnA(handlerInput,chapterArray);
 
-  
+
   let quiz_prompt=' ';
   if (sessionAttributes.question_index==0)
     quiz_prompt=sessionAttributes.chapter+' '+requestAttributes.t('LANGUAGE')+' quiz. '+requestAttributes.t('QUIZ_QUESTION') +'. '+(sessionAttributes.question_index+1)+'. ';
@@ -1051,9 +1051,9 @@ function startQuiz(handlerInput,chapter,carrying_output)
 
   if(sessionAttributes.finished =='true')
     quiz_prompt ='';
-    
+
   if (sessionAttributes.answered == 'true')
-  {   
+  {
       Object.assign(sessionAttributes,
         {
           speechOutput: quiz_prompt+output,
@@ -1061,13 +1061,13 @@ function startQuiz(handlerInput,chapter,carrying_output)
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
   }
   else
-  { 
+  {
     Object.assign(sessionAttributes,
       {
         speechOutput: quiz_prompt+output,
       });
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-    
+
   }
   let index = sessionAttributes.question_index+1;
   Object.assign(sessionAttributes,
@@ -1075,17 +1075,17 @@ function startQuiz(handlerInput,chapter,carrying_output)
       question_index: index,
     });
   handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-  
+
   Object.assign(sessionAttributes,
     {
       function: 'end of start Quiz',
     });
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-    
+
   return handlerInput.responseBuilder
     .withShouldEndSession(false)
     .speak(carrying_output+quiz_prompt+output)
-    .getResponse(); 
+    .getResponse();
 
 }
 
@@ -1099,7 +1099,7 @@ function createQnA(handlerInput,chapterArray)
   //let questions_ids=[];
   //let score=0;
   //let questions_length = chapterLength(chapterArray);
-  
+
   Object.assign(sessionAttributes,
     {
       function: 'start of createQnA',
@@ -1127,7 +1127,7 @@ function createQnA(handlerInput,chapterArray)
       handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
       return requestAttributes.t('QUIZ_COMPLETED',sessionAttributes.quiz_score)+'. '+requestAttributes.t('GRAMATICAL_OPTIONS',requestAttributes.t('OPTION_CHAPTER_HELP'));
     }
-    /* 
+    /*
     score=sessionAttributes.quiz_score;
     questions_ids = sessionAttributes.question_ids;
     let i=0;
@@ -1174,13 +1174,13 @@ function createQnA(handlerInput,chapterArray)
       quiz_score: score,
       question_ids: questions_ids,
       question_id: chapterArray[next_question_position].id,
-      shuffled_answers: answers_copy, 
+      shuffled_answers: answers_copy,
       correct_answer: handlerInput.attributesManager.getRequestAttributes().t(chapterJsonName)[chapterArray[next_question_position].id-1].answers[0],
       answer_index: handlerInput.attributesManager.getRequestAttributes().t(chapterJsonName)[chapterArray[next_question_position].id-1].answers.length,
 
     });
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes); */
-    
+
   Object.assign(sessionAttributes,
     {
       function: 'end of createQnA',
@@ -1221,7 +1221,7 @@ function checkIfvalid(handlerInput,answer)
 }
 
 /**
- * 
+ *
  * @param {*} handlerInput  Input of the user and way to access request and session attributes
  * @param {*} intentRequest String: the chapter name we want to access info for
  */
@@ -1243,7 +1243,7 @@ function validAccessIntent(handlerInput,intentRequest)
 }
 
 /**
- * 
+ *
  * @param {*} handlerInput  Input of the user and way to access request and session attributes
  */
 function defineNextIntents(handlerInput,chapter)
@@ -1262,7 +1262,7 @@ function defineNextIntents(handlerInput,chapter)
   }
 }
 /**
- * 
+ *
  * FUNCTIONS FOR DISPLAYING PICTURES on screens
  */
 
@@ -1285,7 +1285,7 @@ function addImage(handlerInput,main)
     const ImageUrlsJson = requestAttributes.t('IMAGE_URLS');
     let title;
     let image_url;
-    
+
     Object.assign(sessionAttributes,
         {
           function:'start of addImage',
@@ -1307,7 +1307,7 @@ function addImage(handlerInput,main)
     for (let i=0; i<ImageUrlsJson.length; i++)
       if(ImageUrlsJson[i].grammatical_rule == translate(handlerInput,sessionAttributes.chapter,requestAttributes.t('LANGUAGE_CHAPTERS')))
       {
-          
+
         Object.assign(sessionAttributes,
             {
               function:'before if of addImage',
@@ -1318,7 +1318,7 @@ function addImage(handlerInput,main)
         image_url = ImageUrlsJson[i].url;
         title = ImageUrlsJson[i].grammatical_rule;
         break;
-      } 
+      }
     }
     if (supportsDisplay(handlerInput))
       if (image_url != undefined)
@@ -1329,7 +1329,7 @@ function addImage(handlerInput,main)
             });
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
         const image = new Alexa.ImageHelper().addImageInstance(image_url).getImage();
-        
+
         Object.assign(sessionAttributes,
             {
               function:'after const image',
@@ -1340,8 +1340,7 @@ function addImage(handlerInput,main)
           backButton: 'visible',
           backgroundImage: image,
         });
-      } 
-    else  
+      }
+    else
       image_url = ' NOT SUPPORTED..';
 }*/
-
