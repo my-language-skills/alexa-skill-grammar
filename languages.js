@@ -16,7 +16,7 @@ module.exports =
         },
         {
             English: 'index',
-            Spanish: 'indice',
+            Spanish: 'índice',
             German:   '',
             Italian:  '',
         },
@@ -37,7 +37,7 @@ module.exports =
     [
         {
             English: 'more info',
-            Spanish: 'mas informacion',
+            Spanish: 'más información',
             German:   '',
             Italian:  '',
         },

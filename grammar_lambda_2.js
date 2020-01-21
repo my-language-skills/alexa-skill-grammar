@@ -7,117 +7,117 @@ const sprintf = require('i18next-sprintf-postprocessor');
 
 
 const languageString = {
-    en: {
-      translation: {
-        CHAPTERS_NAMES: grammar_a1.EN_US.CHAPTERS_NAMES,
-        CHAPTERS_NAMES_JSON: grammar_a1.EN_US.CHAPTERS_NAMES_JSON,
-        SUBJECT_PRONOUNS: grammar_a1.EN_US.SUBJECT_PRONOUNS,
-        SUBJECT_PRONOUNS_QUIZ: quizes.EN_US.SUBJECT_PRONOUNS,
-        TOBE_AFIRMATIVE: grammar_a1.EN_US.TOBE_AFIRMATIVE,
-        TOBE_AFIRMATIVE_QUIZ: quizes.EN_US.TOBE_AFIRMATIVE,
-        TOBE_NEGATIVE: grammar_a1.EN_US.TOBE_NEGATIVE,
-        TOBE_NEGATIVE_QUIZ: quizes.EN_US.TOBE_NEGATIVE,
-        TOBE_INTEROCATIVE: grammar_a1.EN_US.TOBE_INTEROCATIVE,
-        TOBE_INTEROCATIVE_QUIZ: quizes.EN_US.TOBE_INTEROCATIVE,
-        CARDINAL_NUMBERS: grammar_a1.EN_US.CARDINAL_NUMBERS,
-        CARDINAL_NUMBERS_QUIZ: quizes.EN_US.CARDINAL_NUMBERS,
-        IMAGE_URLS: grammar_a1.EN_US.URLS,
-        LANGUAGE: 'English',
-        PLEASE_STATE: 'Please state the correct number. ',
-        QUIZ_COMPLETED: 'Finished the quiz. Final score: %s',
-        QUIZ_CORRECT_ANSWER: 'Congrats. Correct-o. ',
-        QUIZ_WRONG_ANSWER: 'Boo hoo. That was wrong. Correct answer is: %s. ',
-        QUIZ_INVALID_ANSWER: 'Well you clearly didn\'t hear the instructions then. ',
-        QUIZ_DONTKNOW: 'Well you have to learn it. ',
-        QUIZ_QUIT: 'Give up like life has given up on you. Final score: %s',
-        WELCOME_MESSAGE: 'Welcome to %s. Let\'s learn some english gramatical rules. ',
-        SKILL_NAME: 'English Grammar ',
-        EXTRA_INFO_CHAPTER: 'You can say basic info to get the introductory info, more info to get more details or examples to listen to some examples. ',
-        HELP_START: 'Please state the grammatical rule you want to review',
-        CHAPTER_INFO: 'Please state which of the following sections of grammatical rule %s you want to access. ',
-        OPTION_START_HELP: 'You can say index to get the full list of grammatical rules you want to access. ',
-        OPTION_START_CHAPTERS: 'Simply say one of the following grammatical rules to access one. ',
-        OPTION_UNRECOGNISED: 'This command is unrecognised by the English Grammar skill. Please say something else ',
-        OPTION_CHAPTER_HELP:  'You can say basic info to get the introductory info, more info to get more details or examples to listen to some examples. ',
-        OPTION_START_QUIZ: 'Simply say the grammatical rule title and quiz. ',
-        OPTIONS_QUIZ: 'Say the number of your correct answer, skip to skip the question and  end  to quit the quiz. ',
-        NO_CHAPTER: 'No grammatical rule is selected. ',
-        GRAMATICAL_OPTIONS: '%s Say start quiz to do an exercise. Or say a different rule to study. ',
-        WRONG_INPUT: 'This command is not useful here. ',
-        START_INTENT_OPTIONS: 'Say the grammatical rule you want to access. Say show me grammatical rule to get the list of the grammatical rule ',
-        QUIT_MESSAGE: 'Thank you for using English Grammar. See you around ',
-        NO_ACCESS_TO_THIS: 'You don\'t have access to this information, please give more details ',
-        GENERAL_OPTIONS: 'You can say help to get help on the application, index to see the list of grammatical rules, the grammatical rule name or quiz to do a quiz exercise. ',
-        FALLBACK_MESSSAGE: 'The %s skill can\'t help you with that. What can I help you with? ',
-        FALLBACK_REPROMPT: 'What can I help you with? ',
-        BASIC_INFO: 'Basic info for: ',
-        MORE_INFO:  'More info for: ',
-        EXAMPLE_INFO: 'Example for: ',
-        QUIZ_QUESTION: 'Question',
-        TOTALLY_WRONG_INPUT: 'That\'s just jibber-jabber. It doesn\'t make any sense. ',
-        SORRY_SAY_AGAIN: 'Sorry, I can\'t understand the command. Please try saying again in %s....',
-        NO_PREVIOUS_INFO: 'How can i access the next if no previous exists. ',
-        HELP_NEEDED: 'Try saying help to see the next available commands. '
-        },
-    },
-    'es-ES': {
-      translation: {
-        CHAPTERS_NAMES: grammar_a1.ES_ES.CHAPTERS_NAMES,
-        CHAPTERS_NAMES_JSON: grammar_a1.ES_ES.CHAPTERS_NAMES_JSON,
-        SUBJECT_PRONOUNS: grammar_a1.ES_ES.SUBJECT_PRONOUNS,
-        SUBJECT_PRONOUNS_QUIZ: quizes.ES_ES.SUBJECT_PRONOUNS,
-        TOBE_AFIRMATIVE: grammar_a1.ES_ES.TOBE_AFIRMATIVE,
-        TOBE_AFIRMATIVE_QUIZ: quizes.ES_ES.TOBE_AFIRMATIVE,
-        TOBE_NEGATIVE: grammar_a1.ES_ES.TOBE_NEGATIVE,
-        TOBE_NEGATIVE_QUIZ: quizes.ES_ES.TOBE_NEGATIVE,
-        TOBE_INTEROCATIVE: grammar_a1.ES_ES.TOBE_INTEROCATIVE,
-        TOBE_INTEROCATIVE_QUIZ: quizes.ES_ES.TOBE_INTEROCATIVE,
-        CARDINAL_NUMBERS: grammar_a1.ES_ES.CARDINAL_NUMBERS,
-        CARDINAL_NUMBERS_QUIZ: quizes.ES_ES.CARDINAL_NUMBERS,
-        IMAGE_URLS: grammar_a1.ES_ES.URLS,
-        LANGUAGE_OPTIONS: langs.OPTIONS,
-        LANGUAGE_MORE_OPTIONS: langs.MORE_OPTIONS,
-        LANGUAGE_CHAPTERS: langs.CHAPTERS,
-        lANGUAGE_REPEAT: langs.REPEAT,
-        LANGUAGE: 'Castellano',
-        WELCOME_MESSAGE: 'Bienvenido a %s. Aprendamos algo. ',
-        GENERAL_OPTIONS: 'Puedes decir, ayuda, para obtener la ayuda de la aplicación. O, Índice, para escuchar la lista de normas gramaticales disponibles. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ', //this one
-        HELP_START: 'Por favor, indique la norma gramatical que desearía revisar ',
-        TOTALLY_WRONG_INPUT: 'Eso son simplemente balbuceos. No tiene ningún sentido para mí. ',
-        FALLBACK_MESSSAGE: 'La %s skill no puede ayudarte con eso. ¿Con qué podría yo ayudarte? ',
-        FALLBACK_REPROMPT: '¿Con qué podría yo ayudarte? ',
-        HELP_NEEDED: 'Intenta pidiendo ayuda para ver los comando disponibles. ',
-        OPTION_START_HELP: 'Puedes decir, índice, para obtener la lista de las normas gramaticales. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ',
-        OPTION_START_CHAPTERS: 'Simplemente dí una de las siguientes normas gramaticales para poder acceder: ',
-        OPTION_UNRECOGNISED: 'Este comando no es reconocible por esta aplicación. Por favor, pruebe con algo diferente.',
-        OPTION_CHAPTER_HELP: '¿Quíeres que continuemos? di, más información, o, ejemplos. ',
-        BASIC_INFO: 'Aquí viene: ',
-        EXTRA_INFO_CHAPTER: 'Puedes decir más informacíon para obtener más detalles, o ejemplos para obtener una lista de ejemplos de la norma gramatical. ', //this one
-        GRAMATICAL_OPTIONS: ' %s para hacer un ejercicio di, ejercicio. Para seguir estudiando, di el nombre de una norma gramatical.',
-        OPTION_START_QUIZ: 'Simplemente di el título de la norma gramatical, seguido de la palabra, ejercicios',
-        OPTIONS_QUIZ: 'Dí el número de la respuesta correcta, saltar para saltar el ejercicio y salir para terminar con los ejercicios. ',
-        PLEASE_STATE: 'Por favor, indique el número correcto. ',
-        QUIZ_COMPLETED: 'Termine el ejercicio. Su puntuación ha sido de: %s puntos ',
-        QUIZ_CORRECT_ANSWER: 'Felicitaciones. ',
-        QUIZ_WRONG_ANSWER: 'Espera un momento. Eso ha sido incorrecto. La respuesta correcta es: %s. ',
-        QUIZ_INVALID_ANSWER: 'Creo que no escuchaste correctamente las insgtrucciones. ',
-        QUIZ_DONTKNOW: 'Parece que tienes que aprenderlo. ',
-        QUIZ_QUIT: 'No creo que tengas otra opcion más que rendirte. Puntuación final: %s ',
-        SKILL_NAME: 'Gramática inglesa ',
-        CHAPTER_INFO: 'Por favor, indique a cual de las siguietnes secciones de la norma gramatical sobre %s quieres acceder. ',
-        NO_CHAPTER: 'No se ha seleccionado ninguna norma gramatical. ',
-        WRONG_INPUT: 'Esta instruccion no es útil aquí. ',
-        START_INTENT_OPTIONS: 'Dí el título de la norma gramatical a la que le gustaría acceder. Dí, mostrarme la norma gramatical para obtener la lista de las normas gramaticales. ',
-        QUIT_MESSAGE: 'Gracias por utilizar la gramatica inglesa de Books for Languages. Nos vemos pronto. ',
-        NO_ACCESS_TO_THIS: 'Parece que no tienes acceso a esta información, por favor, dame más detalles. ',
-        MORE_INFO:  'Más información para: ',
-        EXAMPLE_INFO: 'Ejemplos de: ',
-        QUIZ_QUESTION: 'Pregunta ',
-        SORRY_SAY_AGAIN: 'Lo siento, no puedo entender su instrucción. Podria volver a probar en %s.... ',
-        NO_PREVIOUS_INFO: 'Como puedo ahcceder al próximo si no existe el anterior?. '
-        },
-    },
-  };
+  en: {
+    translation: {
+      CHAPTERS_NAMES: grammar_a1.EN_US.CHAPTERS_NAMES,
+      CHAPTERS_NAMES_JSON: grammar_a1.EN_US.CHAPTERS_NAMES_JSON,
+      SUBJECT_PRONOUNS: grammar_a1.EN_US.SUBJECT_PRONOUNS,
+      SUBJECT_PRONOUNS_QUIZ: quizes.EN_US.SUBJECT_PRONOUNS,
+      TOBE_AFIRMATIVE: grammar_a1.EN_US.TOBE_AFIRMATIVE,
+      TOBE_AFIRMATIVE_QUIZ: quizes.EN_US.TOBE_AFIRMATIVE,
+      TOBE_NEGATIVE: grammar_a1.EN_US.TOBE_NEGATIVE,
+      TOBE_NEGATIVE_QUIZ: quizes.EN_US.TOBE_NEGATIVE,
+      TOBE_INTEROCATIVE: grammar_a1.EN_US.TOBE_INTEROCATIVE,
+      TOBE_INTEROCATIVE_QUIZ: quizes.EN_US.TOBE_INTEROCATIVE,
+      CARDINAL_NUMBERS: grammar_a1.EN_US.CARDINAL_NUMBERS,
+      CARDINAL_NUMBERS_QUIZ: quizes.EN_US.CARDINAL_NUMBERS,
+      IMAGE_URLS: grammar_a1.EN_US.URLS,
+      LANGUAGE: 'English',
+      PLEASE_STATE: 'Please state the correct number. ',
+      QUIZ_COMPLETED: 'Finished the quiz. Final score: %s',
+      QUIZ_CORRECT_ANSWER: 'Congrats. Correct-o. ',
+      QUIZ_WRONG_ANSWER: 'Boo hoo. That was wrong. Correct answer is: %s. ',
+      QUIZ_INVALID_ANSWER: 'Well you clearly didn\'t hear the instructions then. ',
+      QUIZ_DONTKNOW: 'Well you have to learn it. ',
+      QUIZ_QUIT: 'Give up like life has given up on you. Final score: %s',
+      WELCOME_MESSAGE: 'Welcome to %s. Let\'s learn some english gramatical rules. ',
+      SKILL_NAME: 'English Grammar ',
+      EXTRA_INFO_CHAPTER: 'You can say basic info to get the introductory info, more info to get more details or examples to listen to some examples. ',
+      HELP_START: 'Please state the grammatical rule you want to review',
+      CHAPTER_INFO: 'Please state which of the following sections of grammatical rule %s you want to access. ',
+      OPTION_START_HELP: 'You can say index to get the full list of grammatical rules you want to access. ',
+      OPTION_START_CHAPTERS: 'Simply say one of the following grammatical rules to access one. ',
+      OPTION_UNRECOGNISED: 'This command is unrecognised by the English Grammar skill. Please say something else ',
+      OPTION_CHAPTER_HELP:  'You can say basic info to get the introductory info, more info to get more details or examples to listen to some examples. ',
+      OPTION_START_QUIZ: 'Simply say the grammatical rule title and quiz. ',
+      OPTIONS_QUIZ: 'Say the number of your correct answer, skip to skip the question and  end  to quit the quiz. ',
+      NO_CHAPTER: 'No grammatical rule is selected. ',
+      GRAMATICAL_OPTIONS: '%s Say start quiz to do an exercise. Or say a different rule to study. ',
+      WRONG_INPUT: 'This command is not useful here. ',
+      START_INTENT_OPTIONS: 'Say the grammatical rule you want to access. Say show me grammatical rule to get the list of the grammatical rule ',
+      QUIT_MESSAGE: 'Thank you for using English Grammar. See you around ',
+      NO_ACCESS_TO_THIS: 'You don\'t have access to this information, please give more details ',
+      GENERAL_OPTIONS: 'You can say help to get help on the application, index to see the list of grammatical rules, the grammatical rule name or quiz to do a quiz exercise. ',
+      FALLBACK_MESSSAGE: 'The %s skill can\'t help you with that. What can I help you with? ',
+      FALLBACK_REPROMPT: 'What can I help you with? ',
+      BASIC_INFO: 'Basic info for: ',
+      MORE_INFO:  'More info for: ',
+      EXAMPLE_INFO: 'Example for: ',
+      QUIZ_QUESTION: 'Question',
+      TOTALLY_WRONG_INPUT: 'That\'s just jibber-jabber. It doesn\'t make any sense. ',
+      SORRY_SAY_AGAIN: 'Sorry, I can\'t understand the command. Please try saying again in %s....',
+      NO_PREVIOUS_INFO: 'How can i access the next if no previous exists. ',
+      HELP_NEEDED: 'Try saying help to see the next available commands. '
+      },
+  },
+  'es-ES': {
+    translation: {
+      CHAPTERS_NAMES: grammar_a1.ES_ES.CHAPTERS_NAMES,
+      CHAPTERS_NAMES_JSON: grammar_a1.ES_ES.CHAPTERS_NAMES_JSON,
+      SUBJECT_PRONOUNS: grammar_a1.ES_ES.SUBJECT_PRONOUNS,
+      SUBJECT_PRONOUNS_QUIZ: quizes.ES_ES.SUBJECT_PRONOUNS,
+      TOBE_AFIRMATIVE: grammar_a1.ES_ES.TOBE_AFIRMATIVE,
+      TOBE_AFIRMATIVE_QUIZ: quizes.ES_ES.TOBE_AFIRMATIVE,
+      TOBE_NEGATIVE: grammar_a1.ES_ES.TOBE_NEGATIVE,
+      TOBE_NEGATIVE_QUIZ: quizes.ES_ES.TOBE_NEGATIVE,
+      TOBE_INTEROCATIVE: grammar_a1.ES_ES.TOBE_INTEROCATIVE,
+      TOBE_INTEROCATIVE_QUIZ: quizes.ES_ES.TOBE_INTEROCATIVE,
+      CARDINAL_NUMBERS: grammar_a1.ES_ES.CARDINAL_NUMBERS,
+      CARDINAL_NUMBERS_QUIZ: quizes.ES_ES.CARDINAL_NUMBERS,
+      IMAGE_URLS: grammar_a1.ES_ES.URLS,
+      LANGUAGE_OPTIONS: langs.OPTIONS,
+      LANGUAGE_MORE_OPTIONS: langs.MORE_OPTIONS,
+      LANGUAGE_CHAPTERS: langs.CHAPTERS,
+      lANGUAGE_REPEAT: langs.REPEAT,
+      LANGUAGE: 'Castellano',
+      WELCOME_MESSAGE: 'Bienvenido a %s. Aprendamos algo. ',
+      GENERAL_OPTIONS: 'Puedes decir, ayuda, para obtener la ayuda de la aplicación. O, Índice, para escuchar la lista de normas gramaticales disponibles. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ', //this one
+      HELP_START: 'Por favor, indique la norma gramatical que desearía revisar ',
+      TOTALLY_WRONG_INPUT: 'Eso son simplemente balbuceos. No tiene ningún sentido para mí. ',
+      FALLBACK_MESSSAGE: 'La %s skill no puede ayudarte con eso. ¿Con qué podría yo ayudarte? ',
+      FALLBACK_REPROMPT: '¿Con qué podría yo ayudarte? ',
+      HELP_NEEDED: 'Intenta pidiendo ayuda para ver los comando disponibles. ',
+      OPTION_START_HELP: 'Puedes decir, índice, para obtener la lista de las normas gramaticales. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ',
+      OPTION_START_CHAPTERS: 'Simplemente dí una de las siguientes normas gramaticales para poder acceder: ',
+      OPTION_UNRECOGNISED: 'Este comando no es reconocible por esta aplicación. Por favor, pruebe con algo diferente.',
+      OPTION_CHAPTER_HELP: '¿Quíeres que continuemos? di, más información, o, ejemplos. ',
+      BASIC_INFO: 'Aquí viene: ',
+      EXTRA_INFO_CHAPTER: 'Puedes decir más informacíon para obtener más detalles, o ejemplos para obtener una lista de ejemplos de la norma gramatical. ', //this one
+      GRAMATICAL_OPTIONS: ' %s para hacer un ejercicio di, ejercicio. Para seguir estudiando, di el nombre de una norma gramatical.',
+      OPTION_START_QUIZ: 'Simplemente di el título de la norma gramatical, seguido de la palabra, ejercicios',
+      OPTIONS_QUIZ: 'Dí el número de la respuesta correcta, saltar para saltar el ejercicio y salir para terminar con los ejercicios. ',
+      PLEASE_STATE: 'Por favor, indique el número correcto. ',
+      QUIZ_COMPLETED: 'Termine el ejercicio. Su puntuación ha sido de: %s puntos ',
+      QUIZ_CORRECT_ANSWER: 'Felicitaciones. ',
+      QUIZ_WRONG_ANSWER: 'Espera un momento. Eso ha sido incorrecto. La respuesta correcta es: %s. ',
+      QUIZ_INVALID_ANSWER: 'Creo que no escuchaste correctamente las insgtrucciones. ',
+      QUIZ_DONTKNOW: 'Parece que tienes que aprenderlo. ',
+      QUIZ_QUIT: 'No creo que tengas otra opcion más que rendirte. Puntuación final: %s ',
+      SKILL_NAME: 'Gramática inglesa ',
+      CHAPTER_INFO: 'Por favor, indique a cual de las siguietnes secciones de la norma gramatical sobre %s quieres acceder. ',
+      NO_CHAPTER: 'No se ha seleccionado ninguna norma gramatical. ',
+      WRONG_INPUT: 'Esta instruccion no es útil aquí. ',
+      START_INTENT_OPTIONS: 'Dí el título de la norma gramatical a la que le gustaría acceder. Dí, mostrarme la norma gramatical para obtener la lista de las normas gramaticales. ',
+      QUIT_MESSAGE: 'Gracias por utilizar la gramatica inglesa de Books for Languages. Nos vemos pronto. ',
+      NO_ACCESS_TO_THIS: 'Parece que no tienes acceso a esta información, por favor, dame más detalles. ',
+      MORE_INFO:  'Más información para: ',
+      EXAMPLE_INFO: 'Ejemplos de: ',
+      QUIZ_QUESTION: 'Pregunta ',
+      SORRY_SAY_AGAIN: 'Lo siento, no puedo entender su instrucción. Podria volver a probar en %s.... ',
+      NO_PREVIOUS_INFO: 'Como puedo ahcceder al próximo si no existe el anterior?. '
+      },
+  },
+};
 
   /**
    * INTENTIONS
@@ -314,11 +314,7 @@ const languageString = {
             answerOutput:'',
           });
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-        /* if (sessionAttributes.language != 'English')
-          translated_chapter = translate(handlerInput,sessionAttributes.chapter,requestAttributes.t('LANGUAGE_CHAPTERS'));
-
-        else
-          translated_chapter = sessionAttributes.chapter; */
+      
 
        return  startQuiz(handlerInput,translated_chapter,'');
       }
@@ -403,17 +399,7 @@ const languageString = {
       let speakOut='';
       let translated_option;
       const slots = handlerInput.requestEnvelope.request.intent.slots;
-   /*    const next_value = next(handlerInput,slots['Next'].value);
-      if (next_value == undefined && slots['GrammaticalRule'].value==undefined && slots['MoreOptions'].value ==undefined)
-        return handlerInput.responseBuilder
-        .withShouldEndSession(false)
-        .speak(requestAttributes.t('NO_PREVIOUS_INFO'))//future use, will change because database will know where user left off..
-        .getResponse();
-      else
-        return handlerInput.responseBuilder
-        .withShouldEndSession(false)
-        .speak('next value:'+next_value)
-        .getResponse(); */
+ 
       let valid_intent_msg = validAccessIntent(handlerInput,'GrammaticalRuleIntent');
       if (sessionAttributes.chapter != requestAttributes.t('NO_CHAPTER') || slots['GrammaticalRule'].value!=undefined )
       {
@@ -434,13 +420,17 @@ const languageString = {
               chapter: options,
           });
           handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-          const chapterJsonName= returnJsonName(handlerInput,translated_option);
 
+          
+          const chapterJsonName= returnJsonName(handlerInput,translated_option);
+          
+          
           if (more_options!=undefined && more_options !='basic info')
-              speakOut = provideInfo(handlerInput,chapterJsonName,more_options);
+              speakOut = provideInfo(handlerInput,chapterJsonName,translate(handlerInput,more_options,requestAttributes.t('LANGUAGE_MORE_OPTIONS')));
           else
               speakOut = provideInfo(handlerInput,chapterJsonName,'basic info');
 
+          
           let next_intents = ['ShowOptionsIntent','StartQuizIntent','MoreInfoExamplesIntent','GrammaticalRuleIntent'];
           Object.assign(sessionAttributes,
           {
@@ -701,6 +691,7 @@ const languageString = {
     else
       return next_value;
   }
+  
 /**
    *
    * @param {*} handlerInput  Input from user
@@ -729,6 +720,7 @@ const languageString = {
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
     return phrase;
   }
+
   function translateTest(handlerInput,phrase,target_lang,langArray)
   {
     const sessionAttributes =handlerInput.attributesManager.getSessionAttributes();
@@ -907,6 +899,7 @@ function provideInfo(handlerInput,chapterNameJson,option)
     option = 'examples'
   while (chapterArray[curr_position].title != option && curr_position < length)
     curr_position++;
+
   if (option == 'basic info')
   {
     //addImage(handlerInput,'true');
@@ -914,7 +907,7 @@ function provideInfo(handlerInput,chapterNameJson,option)
   }
   else if (option == 'more info')
   {
-
+    
   Object.assign(sessionAttributes,
     {
       function: 'before while of provideInfo',
@@ -1261,6 +1254,8 @@ function defineNextIntents(handlerInput,chapter)
     handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
   }
 }
+
+
 /**
  *
  * FUNCTIONS FOR DISPLAYING PICTURES on screens

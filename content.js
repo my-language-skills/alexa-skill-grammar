@@ -67,8 +67,7 @@ module.exports =
             },
             {
                 title: 'more info',
-                sub_text: 'Cardinal numbers are used to express the quantity of things, people and animals. These numbers are usually placed before or after a noun. For example: One car. Two cars.',
-            },
+                sub_text: 'Cardinal numbers are used to express the quantity of things, people and animals. These numbers are usually placed before or after a noun. For example: One car. Two cars.',            },
             {
                 title: 'examples',
                 sub_text: 'Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten ',
@@ -287,45 +286,45 @@ module.exports =
         [
             {
                 title: 'basic info',
-                sub_text: 'Los números cardinales <lang xml:lang="en-UK">cardinal numbers</lang> se usan para expresar la cantidad de algo. ',
+                sub_text: 'Los números cardinales <lang xml:lang="en-US">cardinal numbers</lang> se usan para expresar la cantidad de algo. ',
             },
             {
                 title: 'more info',
-                sub_text: 'Se usan los números cardinales <lang xml:lang="en-UK">cardinal numbers</lang> para expresar la cantidad de cosas, personas y animales. Normalmente, se ponen estos números antes o después de un sustantivo. ',
+                sub_text: 'Se usan los números cardinales <lang xml:lang="en-US">cardinal numbers</lang> para expresar la cantidad de cosas, personas y animales. Normalmente, se ponen estos números antes o después de un sustantivo. ',
             },
             {
                 title: 'examples',
-                sub_text: '<lang xml:lang="en-UK">cardinal numbersZero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten.</lang> ',
+                sub_text: '<lang xml:lang="en-US">cardinal numbersZero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten.</lang> ',
             }
         ],
         SUBJECT_PRONOUNS:
         [
             {
                 title: 'basic info',
-                sub_text: 'Los pronombres personales de sujeto <lang xml:lang="en-UK">subject pronouns</lang> reemplazan un sujeto que es una persona o una cosa en una oración. ',
+                sub_text: 'Los pronombres personales de sujeto <lang xml:lang="en-US">subject pronouns</lang> reemplazan un sujeto que es una persona o una cosa en una oración. ',
             },
             {
                 title: 'more info',
-                sub_text: 'Se usan los pronombres personales de sujeto <lang xml:lang="en-UK">subject pronouns</lang> como el sujeto del verbo, o para reemplazar un sujeto de una frase nominal, que ha sido mencionada previamente, y evitar repeticiones. Se diferencian en género y número y se ponen antes de los verbos. Los pronombres personales sujeto son: I, you, he, she, it, we, you, they. NOTA: Si quieres usar los pronombres personales de sujeto como una sustitución, no es posible hacerlo con la primera persona del singular (I). ',
+                sub_text: 'Se usan los pronombres personales de sujeto <lang xml:lang="en-US">subject pronouns</lang> como el sujeto del verbo, o para reemplazar un sujeto de una frase nominal, que ha sido mencionada previamente, y evitar repeticiones. Se diferencian en género y número y se ponen antes de los verbos. Los pronombres personales sujeto son: I, you, he, she, it, we, you, they. NOTA: Si quieres usar los pronombres personales de sujeto como una sustitución, no es posible hacerlo con la primera persona del singular (I). ',
             },
             {
                 title: 'examples',
-                sub_text: '<lang xml:lang="en-UK">I am tall.</lang> = I se refiere al hablante. <lang xml:lang="en-UK">He is tall.</lang> = He se refiere a un chico específico. <lang xml:lang="en-UK">They are tall.</lang> = They se refiere a algunas personas específicas. ',
+                sub_text: '<lang xml:lang="en-US">I am tall.</lang> = I se refiere al hablante. <lang xml:lang="en-US">He is tall.</lang> = He se refiere a un chico específico. <lang xml:lang="en-US">They are tall.</lang> = They se refiere a algunas personas específicas. ',
             }
         ],
         TOBE_AFIRMATIVE:
         [
             {
                 title: 'basic info',
-                sub_text: '<lang xml:lang="en-UK">To be</lang> es un verbo auxiliar y es esencial en la gramática. Cuando se utiliza en su forma afirmativa, el verbo confirma algo sobre el sujeto. En castellano, el verbo To be se entiende como ser/estar. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es un verbo auxiliar y es esencial en la gramática. Cuando se utiliza en su forma afirmativa, el verbo confirma algo sobre el sujeto. En castellano, el verbo To be se entiende como ser/estar. ',
             },
             {
                 title: 'more info',
-                sub_text: '<lang xml:lang="en-UK">To be</lang> es uno de los verbos auxiliares más comunes. Se usa frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma afirmativa, confirma características del sujeto. La estructura es: Subject + to be + etc. Forma afirmativa: I am, You are, He IS, She is, It is, We are, You are, The are. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es uno de los verbos auxiliares más comunes. Se usa frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma afirmativa, confirma características del sujeto. La estructura es: Subject + to be + etc. Forma afirmativa: I am, You are, He IS, She is, It is, We are, You are, The are. ',
             },
             {
                 title: 'examples',
-                sub_text: '<lang xml:lang="en-UK">I am fast. You are pretty. He is short. She is beautiful. It is big. We are young. You are athletes. They are fat.</lang> ',
+                sub_text: '<lang xml:lang="en-US">I am fast. You are pretty. He is short. She is beautiful. It is big. We are young. You are athletes. They are fat.</lang> ',
             }
         ],
         TOBE_NEGATIVE:
