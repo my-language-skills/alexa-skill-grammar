@@ -1,0 +1,224 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "english grammar",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RepeatMessageIntent",
+                    "slots": [
+                        {
+                            "name": "Repeat",
+                            "type": "Repeat_List"
+                        }
+                    ],
+                    "samples": [
+                        "{Repeat}"
+                    ]
+                },
+                {
+                    "name": "ShowOptionsIntent",
+                    "slots": [
+                        {
+                            "name": "Options",
+                            "type": "Show_Option_List"
+                        }
+                    ],
+                    "samples": [
+                        "Show me {Options}",
+                        "{Options}"
+                    ]
+                },
+                {
+                    "name": "GrammaticalRuleIntent",
+                    "slots": [
+                        {
+                            "name": "GrammaticalRule",
+                            "type": "Chapter_list"
+                        },
+                        {
+                            "name": "MoreOptions",
+                            "type": "MoreOptionsList"
+                        }
+                    ],
+                    "samples": [
+                        "Go to {GrammaticalRule}",
+                        "{GrammaticalRule}",
+                        "I want {GrammaticalRule}",
+                        "{MoreOptions}",
+                        "{GrammaticalRule} {MoreOptions}",
+                        "{MoreOptions} {GrammaticalRule}"
+                    ]
+                },
+                {
+                    "name": "StartQuizIntent",
+                    "slots": [
+                        {
+                            "name": "Chapters",
+                            "type": "Chapter_list"
+                        }
+                    ],
+                    "samples": [
+                        "{Chapters} quiz",
+                        "Start {Chapters} quiz",
+                        "Start quiz",
+                        "Quiz"
+                    ]
+                },
+                {
+                    "name": "AnswerQuizIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{Answer}",
+                        "The number {Answer}",
+                        "Number {Answer}"
+                    ]
+                },
+                {
+                    "name": "DontKnowQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "skip",
+                        "Don't know"
+                    ]
+                },
+                {
+                    "name": "EndQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "end quiz",
+                        "quit quiz",
+                        "skip quiz"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Show_Option_List",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "help"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grammatical rule"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "index"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "table of contents"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quiz"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeat_List",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "repeat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "again"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repeat again"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "MoreOptionsList",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "more info"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "examples"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "example"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "basic info"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Chapter_list",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "subject pronouns"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be afirmative"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be negative"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be interocative"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cardinal numbers"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

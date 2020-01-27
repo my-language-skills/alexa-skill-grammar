@@ -1,0 +1,306 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "gramática inglesa",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RepeatMessageIntent",
+                    "slots": [
+                        {
+                            "name": "Repeat",
+                            "type": "Repeat_List"
+                        }
+                    ],
+                    "samples": [
+                        "{Repeat}"
+                    ]
+                },
+                {
+                    "name": "ShowOptionsIntent",
+                    "slots": [
+                        {
+                            "name": "Options",
+                            "type": "Show_Option_List"
+                        }
+                    ],
+                    "samples": [
+                        "Show me {Options}",
+                        "muestrame {Options}",
+                        "{Options}"
+                    ]
+                },
+                {
+                    "name": "GrammaticalRuleIntent",
+                    "slots": [
+                        {
+                            "name": "GrammaticalRule",
+                            "type": "Chapter_list"
+                        },
+                        {
+                            "name": "MoreOptions",
+                            "type": "MoreOptionsList"
+                        }
+                    ],
+                    "samples": [
+                        "vamos al {GrammaticalRule}",
+                        "Go to {GrammaticalRule}",
+                        "{GrammaticalRule}",
+                        "abre {GrammaticalRule}",
+                        "quiero {GrammaticalRule}",
+                        "I want {GrammaticalRule}",
+                        "{MoreOptions}",
+                        "{GrammaticalRule} {MoreOptions}",
+                        "{MoreOptions} {GrammaticalRule}"
+                    ]
+                },
+                {
+                    "name": "StartQuizIntent",
+                    "slots": [
+                        {
+                            "name": "Chapters",
+                            "type": "Chapter_list"
+                        }
+                    ],
+                    "samples": [
+                        "{Chapters} quiz",
+                        "{Chapters} ejercicio",
+                        "{Chapters} ejercicios",
+                        "empieza el ejercicio del {Chapters}",
+                        "empieza el ejercicio de los {Chapters}",
+                        "Start {Chapters} quiz",
+                        "empieza ejercicio",
+                        "empieza el ejercicio",
+                        "empieza los ejercicios",
+                        "comenzar ejercicio",
+                        "comienza el ejercicio",
+                        "comienza los ejercicios",
+                        "Start quiz",
+                        "ejercicio",
+                        "ejercicios",
+                        "Quiz"
+                    ]
+                },
+                {
+                    "name": "AnswerQuizIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{Answer}",
+                        "el número {Answer}",
+                        "The number {Answer}",
+                        "numero {Answer}",
+                        "Number {Answer}"
+                    ]
+                },
+                {
+                    "name": "DontKnowQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "saltar",
+                        "skip",
+                        "no lo se",
+                        "Don't know"
+                    ]
+                },
+                {
+                    "name": "EndQuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "terminar ejercicio",
+                        "end quiz",
+                        "salir del ejercicio",
+                        "quit quiz",
+                        "saltar ejercicio",
+                        "skip quiz"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Show_Option_List",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ayuda",
+                                "synonyms": [
+                                    "help"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "normal gramatical",
+                                "synonyms": [
+                                    "grammatical rule"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "índice",
+                                "synonyms": [
+                                    "index"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tabla de contenidos",
+                                "synonyms": [
+                                    "table of contents"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ejercicios",
+                                "synonyms": [
+                                    "quiz"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Repeat_List",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "repite",
+                                "synonyms": [
+                                    "repeat"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nuevamente",
+                                "synonyms": [
+                                    "again"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "otra vez",
+                                "synonyms": [
+                                    "repeat again"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "repite otra vez",
+                                "synonyms": [
+                                    "repeat again"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "MoreOptionsList",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "más información",
+                                "synonyms": [
+                                    "more info"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ejemplos",
+                                "synonyms": [
+                                    "examples"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ejemplo",
+                                "synonyms": [
+                                    "example"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "información básica",
+                                "synonyms": [
+                                    "basic info"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Chapter_list",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pronombres sujeto",
+                                "synonyms": [
+                                    "subject pronouns"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be afirmativo",
+                                "synonyms": [
+                                    "to be afirmative"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be negativo",
+                                "synonyms": [
+                                    "to be negative"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "to be interrogativo",
+                                "synonyms": [
+                                    "to be interocative"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "numeros cardinales",
+                                "synonyms": [
+                                    "cardinal numbers"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
