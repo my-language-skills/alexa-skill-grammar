@@ -81,7 +81,7 @@ const languageString = {
       lANGUAGE_REPEAT: langs.REPEAT,
       LANGUAGE: 'Castellano',
       WELCOME_MESSAGE: 'Bienvenido a %s. Aprendamos algo. ',
-      GENERAL_OPTIONS: 'Puedes decir, ayuda, para obtener la ayuda de la aplicación. O, Índice, para escuchar la lista de normas gramaticales disponibles. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ', //this one
+      GENERAL_OPTIONS: 'Puedes decir, ayuda, para obtener la ayuda de la aplicación. O<break strength="strong"/>, <emphasis level="moderate">Índice</emphasis>, para escuchar la lista de normas gramaticales disponibles. También puedes decir el nombre de la norma gramatical o ejercicios para practicar lo aprendido. ', //this one
       HELP_START: 'Por favor, indique la norma gramatical que desearía revisar ',
       TOTALLY_WRONG_INPUT: 'Eso son simplemente balbuceos. No tiene ningún sentido para mí. ',
       FALLBACK_MESSSAGE: 'La %s skill no puede ayudarte con eso. ¿Con qué podría yo ayudarte? ',
@@ -144,7 +144,7 @@ const languageString = {
       if (valid_intent_msg == 'ok')
       {
         let output = requestAttributes.t('QUIZ_QUIT',sessionAttributes.quiz_score);
-        //setting new availability list for Intents. 
+        //setting new availability list for Intents.
         let next_intents = ['ShowOptionsIntent','StartQuizIntent','GrammaticalRuleIntent'];
         /**
          *  quiz_score: current quiz score, *process reset*
@@ -199,14 +199,14 @@ const languageString = {
     {
         const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
         const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
-      
+
         //validAccesIntent function checks the request for this Intent in the availability list.
         let valid_intent_msg = validAccessIntent(handlerInput,'DontKnowQuizIntent');
 
         if (valid_intent_msg == 'ok')
         {
           let output=requestAttributes.t('QUIZ_DONTKNOW')
-          //setting new availability list for Intents. 
+          //setting new availability list for Intents.
           let next_intents = ['ShowOptionsIntent','AnswerQuizIntent','DontKnowQuizIntent','EndQuizIntent',,'StartQuizIntent',];
           /**
            *  nextIntents: new availability list
@@ -378,7 +378,7 @@ const languageString = {
           });
           //sets new valus to sesssion attributes.
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-      
+
        //call to quiz function, to start process.
        return  startQuiz(handlerInput,translated_chapter,'');
       }
@@ -394,7 +394,7 @@ const languageString = {
   /**
    * Responsible to handle the request to acess a gramatical rule/chapter.
    * Custom slot: {"GrammaticalRule": custom list of chapters available, "MoreOptions": request of specific information}
-   * 
+   *
    */
   const GrammaticalRuleIntent = {
     canHandle(handlerInput)
@@ -409,7 +409,7 @@ const languageString = {
       let speakOut='';
       let translated_option;
       const slots = handlerInput.requestEnvelope.request.intent.slots;
-      
+
       //returns message if user or process has access to this Intent.
       let valid_intent_msg = validAccessIntent(handlerInput,'GrammaticalRuleIntent');
       //checks if a grammatical rule is either given now re previously requested. (No null value)
@@ -440,7 +440,7 @@ const languageString = {
 
           //returns the gramatical rule in a form that is stored in content file.
           const chapterJsonName= returnJsonName(handlerInput,translated_option);
-          
+
           //translates the moreoption value if given.
           if (more_options!=undefined && more_options !='basic info')
               speakOut = provideInfo(handlerInput,chapterJsonName,translate(handlerInput,more_options,requestAttributes.t('LANGUAGE_MORE_OPTIONS')));
@@ -652,7 +652,7 @@ const languageString = {
 
 
     /**
-     * Called when the process has ended for some reason. Returnes ending message. 
+     * Called when the process has ended for some reason. Returnes ending message.
      */
     const SessionEndedRequest = {
     canHandle(handlerInput) {
@@ -691,7 +691,7 @@ const languageString = {
   /**
    * Triggered when the process has stopped because of an error.
    * Possible trigger: invalid request message - similar text with custom slot (can happen in development test when value is heyboard input)
-   */  
+   */
   const ErrorHandler = {
     canHandle() {
       return true;
@@ -729,7 +729,7 @@ const languageString = {
       .lambda();
 
 
-  
+
 /**
    *
    * @param {*} handlerInput  Input from user
@@ -752,10 +752,10 @@ const languageString = {
 /**
  * Responsible to translating chapter names.
  * Helper function for all_Chapters.
- * @param {*} handlerInput 
- * @param {*} phrase 
- * @param {*} target_lang 
- * @param {*} langArray 
+ * @param {*} handlerInput
+ * @param {*} phrase
+ * @param {*} target_lang
+ * @param {*} langArray
  */
 function translateTest(handlerInput,phrase,target_lang,langArray)
 {
@@ -805,7 +805,7 @@ function returnJsonName(handlerInput,chapterName)
 
 
 /**
- *  
+ *
  * decides which action to do next according to the inital response of the user
  */
 function decideOption(handlerInput,option)
@@ -849,7 +849,7 @@ function decideOption(handlerInput,option)
 
 /**
  * Returns a string with all the chapters translated to the selected language
- * @param {} handlerInput 
+ * @param {} handlerInput
  */
 function all_Chapters(handlerInput)
 {
@@ -904,7 +904,7 @@ function provideInfo(handlerInput,chapterNameJson,option)
   }
   else if (option == 'more info')
   {
-    
+
   Object.assign(sessionAttributes,
     {
       function: 'before while of provideInfo',
@@ -963,9 +963,9 @@ function generateQuestions(handlerInput,sessionAttributes,chapterName)
 /**
  * Generates the answer for a given question.
  * Sets values to sessionAttributes for all answers and correct answer.
- * @param {} handlerInput 
- * @param {*} question_id 
- * @param {*} chapterName 
+ * @param {} handlerInput
+ * @param {*} question_id
+ * @param {*} chapterName
  */
 function generateAnswers(handlerInput,question_id,chapterName)
 {
@@ -1000,9 +1000,9 @@ function generateAnswers(handlerInput,question_id,chapterName)
 
 /**
  * Responsible to initiating the quiz process.
- * @param {*} handlerInput 
- * @param {*} chapter 
- * @param {*} carrying_output 
+ * @param {*} handlerInput
+ * @param {*} chapter
+ * @param {*} carrying_output
  */
 function startQuiz(handlerInput,chapter,carrying_output)
 {
@@ -1094,7 +1094,7 @@ function createQnA(handlerInput,chapterArray)
       handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
       return requestAttributes.t('QUIZ_COMPLETED',sessionAttributes.quiz_score)+'. '+requestAttributes.t('GRAMATICAL_OPTIONS',requestAttributes.t('OPTION_CHAPTER_HELP'));
     }
-    
+
 
   output += requestAttributes.t('PLEASE_STATE');
   for (let i=0;i<sessionAttributes.shuffled_answers.length;i++)
@@ -1106,8 +1106,8 @@ function createQnA(handlerInput,chapterArray)
 /**
  * Checks if answer given is correct or not.
  * Returns appropriate message.
- * @param {*} handlerInput 
- * @param {*} answer 
+ * @param {*} handlerInput
+ * @param {*} answer
  */
 function checkIfvalid(handlerInput,answer)
 {
@@ -1154,6 +1154,3 @@ function validAccessIntent(handlerInput,intentRequest)
   //all checks have failed and no access is given to the requested intent..
   return requestAttributes.t('NO_ACCESS_TO_THIS');
 }
-
-
-

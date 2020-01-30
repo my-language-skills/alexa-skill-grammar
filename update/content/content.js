@@ -182,7 +182,7 @@ module.exports =
             },
             {
                 title: 'examples',
-                sub_text: '<lang xml:lang="en-US">cardinal numbersZero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten.</lang> ',
+                sub_text: '<lang xml:lang="en-US">cardinal numbers. Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten.</lang> ',
             }
         ],
         SUBJECT_PRONOUNS:
@@ -193,7 +193,7 @@ module.exports =
             },
             {
                 title: 'more info',
-                sub_text: 'Se usan los pronombres personales de sujeto <lang xml:lang="en-US">subject pronouns</lang> como el sujeto del verbo, o para reemplazar un sujeto de una frase nominal, que ha sido mencionada previamente, y evitar repeticiones. Se diferencian en género y número y se ponen antes de los verbos. Los pronombres personales sujeto son: I, you, he, she, it, we, you, they. NOTA: Si quieres usar los pronombres personales de sujeto como una sustitución, no es posible hacerlo con la primera persona del singular (I). ',
+                sub_text: 'Se usan los pronombres personales de sujeto <lang xml:lang="en-US">subject pronouns</lang> como el sujeto del verbo, o para reemplazar un sujeto de una frase nominal, que ha sido mencionada previamente, y evitar repeticiones. Se diferencian en género y número y se ponen antes de los verbos. Los pronombres personales sujeto son: <lang xml:lang="en-US">I, you, he, she, it, we, you</lang> y <lang xml:lang="en-US">they</lang>. NOTA: Si quieres usar los pronombres personales de sujeto como una sustitución, no es posible hacerlo con la primera persona del singular (I). ',
             },
             {
                 title: 'examples',
@@ -208,7 +208,7 @@ module.exports =
             },
             {
                 title: 'more info',
-                sub_text: '<lang xml:lang="en-US">To be</lang> es uno de los verbos auxiliares más comunes. Se usa frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma afirmativa, confirma características del sujeto. La estructura es: Subject + to be + etc. Forma afirmativa: I am, You are, He IS, She is, It is, We are, You are, The are. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es uno de los verbos auxiliares más comunes. Se usa frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma afirmativa, confirma características del sujeto. La estructura es: <lang xml:lang="en-US">Subject + to be + </lang>etc. Forma afirmativa: <lang xml:lang="en-US">I am, You are, He IS, She is, It is, We are, You are, The are</lang>. ',
             },
             {
                 title: 'examples',
@@ -219,30 +219,30 @@ module.exports =
         [
             {
                 title: 'basic info',
-                sub_text: 'To be es un verbo auxiliar y es esencial en la gramática. Cuando se expresa en su forma negativa, el verbo niega algo sobre el sujeto. En castellano, el verbo To be se entiende como ser/estar. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es un verbo auxiliar y es esencial en la gramática. Cuando se expresa en su forma negativa, el verbo niega algo sobre el sujeto. En castellano, el verbo <lang xml:lang="en-US">To be</lang> se entiende como ser/estar. ',
             },
             {
                 title: 'more info',
-                sub_text: 'To be es uno de los verbos auxiliares más comunes. Se usa to be frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma negativa, niega las características del sujeto. La estructura es: Subject + to be + not + etc. Forma negativa: I am not, You are not, He is not, She is not, It is not, We are not, You are not, They are not. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es uno de los verbos auxiliares más comunes. Se usa to be frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma negativa, niega las características del sujeto. La estructura es: <lang xml:lang="en-US">Subject + to be + not + </lang> etc. Forma negativa: <lang xml:lang="en-US">I am not, You are not, He is not, She is not, It is not, We are not, You are not, They are not</lang>. ',
             },
             {
                 title: 'examples',
-                sub_text: '“I am not tall.” = Usamos am not para la primera persona del singular. “He is not tall.” = Usamos is not para la tercera persona del singular. “They are not tall.” = Usamos are not para plurales. ',
+                sub_text: '“<lang xml:lang="en-US">I am not tall</lang>.” = Usamos am not para la primera persona del singular. “<lang xml:lang="en-US">He is not tall</lang>.” = Usamos is not para la tercera persona del singular. “<lang xml:lang="en-US">They are not tall</lang>.” = Usamos are not para plurales. ',
             }
         ],
         TOBE_INTEROCATIVE:
         [
             {
                 title: 'basic info',
-                sub_text: 'To be es un verbo auxiliar y es esencial en la gramática. Cuando se utiliza en su forma interrogativa el verbo sirve para preguntar algo sobre el sujeto. En castellano, el verbo To be se entiende como ser/estar. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es un verbo auxiliar y es esencial en la gramática. Cuando se utiliza en su forma interrogativa el verbo sirve para preguntar algo sobre el sujeto. En castellano, el verbo <lang xml:lang="en-US">To be</lang> se entiende como ser/estar. ',
             },
             {
                 title: 'more info',
-                sub_text: 'To be es uno de los verbos auxiliares más comunes. Se usa to be frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma interrogativa, pregunta sobre las características del sujeto. La estructura es: To be + subject + etc? La forma interrogativa: Am I, Are you, Is he, Is she, Is it, Are we, Are you, Are they. ',
+                sub_text: '<lang xml:lang="en-US">To be</lang> es uno de los verbos auxiliares más comunes. Se usa to be frecuentemente con sustantivos, adjetivos y frases preposicionales. En su forma interrogativa, pregunta sobre las características del sujeto. La estructura es: To be + subject + etc? La forma interrogativa: <lang xml:lang="en-US">Am I, Are you, Is he, Is she, Is it, Are we, Are you, Are they</lang>. ',
             },
             {
                 title: 'examples',
-                sub_text: '“Am I tall?” = Usamos Am para la primera persona del singular “Is he tall?” = Usamos Is para la tercera persona del singular. “Are they tall?” = Usamos Are para plurales. ',
+                sub_text: '“<lang xml:lang="en-US">Am I tall?</lang>” = Usamos Am para la primera persona del singular “<lang xml:lang="en-US">Is he tall?</lang>” = Usamos Is para la tercera persona del singular. “<lang xml:lang="en-US">Are they tall?</lang>” = Usamos Are para plurales. ',
             }
         ]
     }

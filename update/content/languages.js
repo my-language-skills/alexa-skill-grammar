@@ -1,4 +1,4 @@
-module.exports = 
+module.exports =
 {
     OPTIONS:
     [
@@ -88,7 +88,7 @@ module.exports =
         },
         {
             English: 'cardinal numbers',
-            Spanish: 'numeros cardinales',
+            Spanish: 'números cardinales',
             German:   '',
             Italian:  '',
         }

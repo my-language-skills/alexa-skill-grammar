@@ -314,7 +314,7 @@ const languageString = {
             answerOutput:'',
           });
         handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
-      
+
 
        return  startQuiz(handlerInput,translated_chapter,'');
       }
@@ -399,7 +399,7 @@ const languageString = {
       let speakOut='';
       let translated_option;
       const slots = handlerInput.requestEnvelope.request.intent.slots;
- 
+
       let valid_intent_msg = validAccessIntent(handlerInput,'GrammaticalRuleIntent');
       if (sessionAttributes.chapter != requestAttributes.t('NO_CHAPTER') || slots['GrammaticalRule'].value!=undefined )
       {
@@ -421,16 +421,16 @@ const languageString = {
           });
           handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
 
-          
+
           const chapterJsonName= returnJsonName(handlerInput,translated_option);
-          
-          
+
+
           if (more_options!=undefined && more_options !='basic info')
               speakOut = provideInfo(handlerInput,chapterJsonName,translate(handlerInput,more_options,requestAttributes.t('LANGUAGE_MORE_OPTIONS')));
           else
               speakOut = provideInfo(handlerInput,chapterJsonName,'basic info');
 
-          
+
           let next_intents = ['ShowOptionsIntent','StartQuizIntent','MoreInfoExamplesIntent','GrammaticalRuleIntent'];
           Object.assign(sessionAttributes,
           {
@@ -691,7 +691,7 @@ const languageString = {
     else
       return next_value;
   }
-  
+
 /**
    *
    * @param {*} handlerInput  Input from user
@@ -907,7 +907,7 @@ function provideInfo(handlerInput,chapterNameJson,option)
   }
   else if (option == 'more info')
   {
-    
+
   Object.assign(sessionAttributes,
     {
       function: 'before while of provideInfo',
